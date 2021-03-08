@@ -24,11 +24,11 @@ class SendMail {
         $mail->CharSet = 'utf-8';
         $mail->SMTPAuth = true;
         $mail->SMTPAutoTLS = false;
-        $mail->Host = '192.168.1.185';
+        $mail->Host = '';
         $mail->Port = 25;
 
-        $mail->Username = 'vfhub_teszt@telemax.local';
-        $mail->Password = 'vfhubteszt';
+        $mail->Username = '';
+        $mail->Password = '';
 
         // Recipients
         $mail->setFrom($this->email, $this->name);
